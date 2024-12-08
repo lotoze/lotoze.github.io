@@ -6,30 +6,19 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'Lotoze『 骆驼泽 』',
+  description: '热爱就是拥有~',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/images/yc_logo2.png',
 
     navbar: [
       '/',
       {
-        text: 'Article',
-        link: '/article/',
+        text: '博客',
+        link: '/blog/',
       },
-      {
-        text: 'Category',
-        link: '/category/',
-      },
-      {
-        text: 'Tag',
-        link: '/tag/',
-      },
-      {
-        text: 'Timeline',
-        link: '/timeline/',
-      },
+     
     ],
   }),
 
