@@ -16,7 +16,30 @@ export default defineUserConfig({
       '/',
       {
         text: '博客',
-        link: '/blog/',
+        link: '/blog',
+
+      },
+      {
+        text: '奕澄软件',
+        prefix: '/yicheng/',
+        children: [
+          {
+            text: '奕澄Markdown',
+            prefix: 'markdown/',
+            children: [
+              {
+                text: "隐私协议",
+                link: "PrivacyAgreement.md"
+              },
+              {
+                text: "寄语与示例",
+                link: "寄语与示例.md"
+              }
+            ]
+            
+          },
+         
+        ]
       },
      
     ],
