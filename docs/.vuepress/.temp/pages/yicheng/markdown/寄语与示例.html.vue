@@ -37,7 +37,7 @@
 <h6 id="heading-6" tabindex="-1"><a class="header-anchor" href="#heading-6"><span>Heading 6</span></a></h6>
 <h3 id="图片" tabindex="-1"><a class="header-anchor" href="#图片"><span>图片</span></a></h3>
 <blockquote>
-<p>注意：上传图片会自动引入，路径为绝对路径！</p>
+<p>注意：上传图片会自动引入，相对路径优先！</p>
 </blockquote>
 <p><img src="@source/yicheng/markdown/assets/images/yc_logo2.png" alt="alt 文本"></p>
 <div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">![alt 文本](http://image-path.png)</span>
