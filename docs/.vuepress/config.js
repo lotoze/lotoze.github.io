@@ -28,13 +28,22 @@ export default defineUserConfig({
             prefix: 'markdown/',
             children: [
               {
+                text: "寄语与示例",
+                link: "寄语与示例.md"
+              },
+              {
+                text: "使用须知",
+                link: "使用须知.md"
+              },
+              {
                 text: "隐私协议",
                 link: "PrivacyAgreement.md"
               },
               {
-                text: "寄语与示例",
-                link: "寄语与示例.md"
+                text: "用户协议",
+                link: "用户协议.md"
               }
+             
             ]
             
           },
