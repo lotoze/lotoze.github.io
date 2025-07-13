@@ -19,7 +19,7 @@
 <li><em>倾斜</em> - <code v-pre>*倾斜*</code></li>
 <li><s>删除线</s> - <code v-pre>~~删除线~~</code></li>
 <li><code v-pre>Code 标记</code> - <code v-pre>`Code 标记`</code></li>
-<li><a href="https://ld246.com" target="_blank" rel="noopener noreferrer">超级链接</a> - <code v-pre>[超级链接](https://lotoze.github.io)</code></li>
+<li><a href="https://lotoze.github.io" target="_blank" rel="noopener noreferrer">超级链接</a> - <code v-pre>[超级链接](https://lotoze.github.io)</code></li>
 <li><a href="mailto:username@gmail.com" target="_blank" rel="noopener noreferrer">username@gmail.com</a> - <code v-pre>[username@gmail.com](mailto:username@gmail.com)</code></li>
 </ul>
 <h3 id="表情符号-emoji" tabindex="-1"><a class="header-anchor" href="#表情符号-emoji"><span>表情符号 Emoji</span></a></h3>
