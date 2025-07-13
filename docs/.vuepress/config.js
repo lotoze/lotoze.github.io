@@ -8,7 +8,7 @@ export default defineUserConfig({
 
   title: 'Lotoze『 骆驼泽 』',
   description: '热爱就是拥有~',
-
+  dest: "dist",
   theme: defaultTheme({
     logo: '/images/yc_logo2.png',
 
